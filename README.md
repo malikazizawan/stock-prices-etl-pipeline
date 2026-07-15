@@ -4,7 +4,7 @@ An automated, event-driven ETL pipeline built on AWS that detects stock price CS
 
 ## Architecture
 
-![Architecture Diagram](architecture/architecture-diagram.png)
+![Architecture Diagram](architecture/serverless-stock-price-etl-pipeline.png)
 
 S3 (input-data/) → S3 Event Notification → SQS → Lambda Trigger → Lambda → S3 (output-data/) → CloudWatch Logs
 
